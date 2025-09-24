@@ -17,20 +17,19 @@ Create apps and websites by chatting with AI. Sparkly turns plain-English prompt
 
 🧱 Monorepo Layout
 
-/
-├── frontend/                # Vite + React + TS + Tailwind
-│   ├── public/images/       # View screenshots (used in this README)
-│   └── src/
-│       ├── pages/           # AppShell, ChatInterface, WebsitePreviewExplorer
-│       ├── components/      # FileExplorer, CodeViewer, Preview, etc.
-│       ├── hooks/           # useBuildSession, useKeyboardShortcuts, etc.
-│       └── context/         # Theme, App, Toast
-└── backend/                 # Express + TypeScript
-    ├── src/routes/          # /api/session, /api/chat, /api/template
-    ├── src/controllers/     # Claude calls, template/chat handlers
-    ├── src/middleware/      # JWT auth, CORS, rate limiter
-    └── src/config/          # dotenv, cors config, Anthropic SDK
-
+📦 sparkly-ai-website-builder
+├── 🎨 frontend/ — Vite + React + TypeScript + Tailwind
+│   ├── 🖼️ public/images/ → Demo screenshots (used in README)
+│   └── 💻 src/
+│       ├── 📑 pages/ → AppShell, ChatInterface, WebsitePreviewExplorer
+│       ├── 🧩 components/ → FileExplorer, CodeViewer, Preview, etc.
+│       ├── 🛠️ hooks/ → useBuildSession, useKeyboardShortcuts, etc.
+│       └── ⚙️ context/ → Theme, App, Toast
+└── ⚡ backend/ — Express + TypeScript
+├── 🔀 src/routes/ → /api/session, /api/chat, /api/template
+├── 🎛️ src/controllers/ → Claude calls, template/chat handlers
+├── 🧱 src/middleware/ → JWT auth, CORS, rate limiter
+└── 🔧 src/config/ → dotenv, cors config, Anthropic SDK
 
 ⸻
 
