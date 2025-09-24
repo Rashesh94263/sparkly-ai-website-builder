@@ -27,10 +27,11 @@ Create apps and websites by chatting with AI. Sparkly turns plain-English prompt
 │       ├── 🛠️ hooks/ → useBuildSession, useKeyboardShortcuts, etc.
 │       └── ⚙️ context/ → Theme, App, Toast
 └── ⚡ backend/ — Express + TypeScript
-├── 🔀 src/routes/ → /api/session, /api/chat, /api/template
-├── 🎛️ src/controllers/ → Claude calls, template/chat handlers
-├── 🧱 src/middleware/ → JWT auth, CORS, rate limiter
-└── 🔧 src/config/ → dotenv, cors config, Anthropic SDK
+	└── 💻 src/
+		├── 🔀 routes/ → /api/session, /api/chat, /api/template
+		├── 🎛️ controllers/ → Claude calls, template/chat handlers
+		├── 🧱 middleware/ → JWT auth, CORS, rate limiter
+		└── 🔧 config/ → dotenv, cors config, Anthropic SDK
 ```
 
 ⸻
