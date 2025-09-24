@@ -1,0 +1,21 @@
+.lovable-gradient {
+  background: linear-gradient(
+    135deg,
+    #1e40af 0%,
+    #3730a3 20%,
+    #7c2d12 40%,
+    #dc2626 60%,
+    #ea580c 80%,
+    #d97706 100%
+  );
+}
+
+.glass-input {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-input:focus-within {
+  border-color: rgba(255, 255, 255, 0.2);
+}
