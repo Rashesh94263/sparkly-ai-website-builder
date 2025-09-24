@@ -164,7 +164,7 @@ await fetch(`${BACKEND_URL}/api/template`, {
 🖼️ View Components — Public Images
 
 Below is a gallery of screenshots from frontend/public/images/ that showcase major views/components (landing flow, calendar UI, modals, etc.).
-```code
+
 <!-- UI Gallery (uses images in frontend/public/images) -->
 <div align="center">
 
@@ -197,7 +197,7 @@ Below is a gallery of screenshots from frontend/public/images/ that showcase maj
   <div><sub>Calendar demo · Modal · Error/empty state</sub></div>
 
 </div>
-```
+
 
 Add captions by converting each row into a small table if you want per-image labels.
 
