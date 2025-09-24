@@ -1,0 +1,69 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+.next/
+build/
+
+# TypeScript
+*.tsbuildinfo
+*.js
+*.js.map
+
+# Testing
+coverage/
+.nyc_output
+*.lcov
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Turbopack
+.turbo/
+
+# Caches & Temp
+.eslintcache
+.cache/
+.tmp/
+tmp/
+npm-cache/
+
+# Lockfile backups
+package-lock.json.*
+yarn.lock.*
+pnpm-lock.yaml.*
+
+# Deployment
+.vercel/
+.netlify/
+
+# Process manager dumps
+pids
+*.pid
+*.seed
+*.pid.lock

@@ -1,0 +1,56 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+build/
+out/
+
+# Vite / bundler caches
+.vite/
+.vite/deps/
+
+# Testing / coverage
+coverage/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Editor / OS specific
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Tooling caches
+.eslintcache
+
+# Deployment output / hosting
+.vercel/
+.netlify/
+# add other hosting dirs if needed
+
+# Lockfile backups / temp
+package-lock.json.*
+yarn.lock.*
+pnpm-lock.yaml.*
+tmp/
+.temp/
