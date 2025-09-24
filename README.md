@@ -15,7 +15,8 @@ Create apps and websites by chatting with AI. Sparkly turns plain-English prompt
 
 ⸻
 
-🧱 Monorepo Layout
+
+## 🧱 Monorepo Layout
 
 📦 sparkly-ai-website-builder
 ├── 🎨 frontend/ — Vite + React + TypeScript + Tailwind
@@ -30,6 +31,7 @@ Create apps and websites by chatting with AI. Sparkly turns plain-English prompt
 ├── 🎛️ src/controllers/ → Claude calls, template/chat handlers
 ├── 🧱 src/middleware/ → JWT auth, CORS, rate limiter
 └── 🔧 src/config/ → dotenv, cors config, Anthropic SDK
+
 
 ⸻
 
